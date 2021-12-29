@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ExtensionUIButtonUniq</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>extension UIButton {
+    private struct CustomProperty{
+        static var _tempPropertyName: String? = nil
+    }
+    
+    var &lt;#condition#&gt; : String! {
+        get { return objc_getAssociatedObject(self, &amp;CustomProperty._tempPropertyName) as? String}
+        set { objc_setAssociatedObject(self, &amp;CustomProperty._tempPropertyName, newValue as String?, objc_AssociationPolicy.OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+        }
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F678BCC4-3A02-4EAC-8BFD-24E1370496F2</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UIButton’a String custom property, her button ayri ayri PropertyName’e atama yapilir.</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Extension - UIButton Add Uniq Custom Propery</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

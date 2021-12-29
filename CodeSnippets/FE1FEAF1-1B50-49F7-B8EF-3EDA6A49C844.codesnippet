@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ExtensionUIButtonConstant</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>extension UIButton {
+    private struct CustomProperty{
+        static var _tempPropertyName: String? = nil
+    }
+    var &lt;#condition#&gt; : String! {
+        get { return CustomProperty._tempPropertyName }
+        set { CustomProperty._tempPropertyName = newValue }
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>FE1FEAF1-1B50-49F7-B8EF-3EDA6A49C844</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>//UIButton’a String custom property, her button PropertyName’e sabit atama yapilir.</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Extension - UIButton Add Constant Custom Propery</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
