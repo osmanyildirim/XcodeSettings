@@ -1601,8 +1601,10 @@
 			<key></key>
 			<array>
 				<string>centerSelectionInVisibleArea:</string>
+				<string>selectToMark:</string>
+				<string>swapWithMark:</string>
 			</array>
-			<key>^l</key>
+			<key>^x</key>
 			<string>deleteLine:</string>
 		</dict>
 		<key>Version</key>
